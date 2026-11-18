@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100e0a">
+  <meta name="description" content="Nob Nefer — a digital journey into the gold stater of Nectanebo II.">
+  <title>Nob Nefer | The Pure Gold of Ancient Egypt</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/map.css">
+  <link rel="stylesheet" href="css/update.css">
+</head>
+<body>
+  <div class="site-progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Nob Nefer home"><span class="brand-mark">𓋞</span><span data-i18n="brandHtml">NOB <b>NEFER</b></span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#story" data-i18n="navStory">The story</a>
+      <a href="#obverse" data-i18n="navObverse">Obverse</a>
+      <a href="#reverse" data-i18n="navReverse">Reverse</a>
+      <a href="#map-section" data-i18n="navMap">Explore map</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only">Language</span>
+      <select id="languageSelect" aria-label="Choose language">
+        <option value="en">EN</option><option value="fr">FR</option><option value="de">DE</option><option value="ar">AR</option>
+      </select>
+    </label>
+  </header>
+
+  <main>
+    <section class="scene hero" id="home">
+      <div class="hero-ornament ornament-left">𓂀</div>
+      <div class="hero-ornament ornament-right">𓆣</div>
+      <div class="hero-content reveal">
+        <p class="eyebrow" data-i18n="heroEyebrow">A DIGITAL ARCHAEOLOGICAL JOURNEY</p>
+        <h1 data-i18n="heroTitle">NOB <span>NEFER</span></h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">THE PURE GOLD OF ANCIENT EGYPT</p>
+        <p class="hero-credits"><span data-i18n="credit1">Dr. Almoatz-bellah Elshahawi</span><span data-i18n="credit2">Hekmat Awad El-kilany</span></p>
+        <div class="hero-rule"><i></i><span>𓋹</span><i></i></div>
+        <div class="hero-coin-wrap">
+          <div class="coin-halo"></div>
+          <video class="hero-coin hero-video" src="assets/video_coin.mp4" poster="assets/coin.png" autoplay muted loop playsinline aria-label="The Nob Nefer gold coin rotating"></video>
+        </div>
+        <a class="scroll-cue" href="#story"><span data-i18n="scrollExplore">SCROLL TO EXPLORE</span><b>↓</b></a>
+      </div>
+    </section>
+
+    <section class="scene history" id="story">
+      <div class="section-kicker reveal"><span data-i18n="historyKicker">HISTORICAL CONTEXT</span></div>
+      <div class="history-grid">
+        <div class="history-copy reveal">
+          <p class="eyebrow" data-i18n="historyEyebrow">THE LATE PERIOD · 30TH DYNASTY</p>
+          <h2 data-i18n="historyTitle">A coin from the reign of <em>Nectanebo II</em></h2>
+          <p class="body-copy" data-i18n="historyText">This gold stater is associated with Nectanebo II, the last native ruler of Egypt before the second Persian conquest.</p>
+          <div class="facts">
+            <div><span data-i18n="rulerLabel">RULER / DYNASTY</span><strong data-i18n="rulerValue">Nectanebo II · 30th Dynasty</strong></div>
+            <div><span data-i18n="dateLabel">DATE / PERIOD</span><strong data-i18n="dateValue">360–342 BC · Late Period</strong></div>
+          </div>
+        </div>
+        <div class="history-art reveal">
+          <div class="art-frame"><img src="assets/coin.png" alt="Nob Nefer coin, obverse and reverse"></div>
+          <span class="art-caption" data-i18n="coinCaption">THE NOB NEFER GOLD STATER</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene significance" id="significance">
+      <div class="section-kicker reveal"><span data-i18n="significanceKicker">A HISTORICAL OBJECT</span></div>
+      <div class="significance-inner reveal">
+        <p class="eyebrow" data-i18n="significanceEyebrow">GOLD · POWER · WRITING</p>
+        <h2 data-i18n="significanceTitle">More than a means of exchange.</h2>
+        <p class="significance-text" data-i18n="significanceText">The Nob Nefer stater is presented as the first coin minted in Egypt. It is historically significant as the only authentic gold coin bearing hieroglyphic inscriptions.</p>
+        <div class="paired-coin"><img src="assets/coin.png" alt="Original user-provided image showing both sides of the coin"></div>
+      </div>
+    </section>
+
+    <section class="scene coin-detail" id="obverse">
+      <div class="section-kicker reveal"><span data-i18n="obverseKicker">THE FRONT OF THE COIN</span></div>
+      <div class="detail-grid">
+        <div class="detail-image reveal"><div class="image-ring"></div><img src="assets/coin-front.png" alt="Obverse of the Nob Nefer coin showing a horse"></div>
+        <div class="detail-copy reveal">
+          <p class="eyebrow" data-i18n="obverseEyebrow">OBVERSE</p>
+          <h2 data-i18n="obverseTitle">The rearing horse</h2>
+          <p class="body-copy" data-i18n="obverseText">The obverse depicts a horse standing on its hind legs and facing right. The image evokes strength and royal power.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene coin-detail reverse" id="reverse">
+      <div class="section-kicker reveal"><span data-i18n="reverseKicker">THE BACK OF THE COIN</span></div>
+      <div class="detail-grid reverse-grid">
+        <div class="detail-copy reveal">
+          <p class="eyebrow" data-i18n="reverseEyebrow">REVERSE</p>
+          <h2 data-i18n="reverseTitle">The hieroglyphic name</h2>
+          <p class="body-copy" data-i18n="reverseText">Two signs combine to form the name Nob Nefer: the gold necklace signifies “Nob”, while the heart-and-windpipe sign signifies “Nefer”. Together, the name means “Pure Gold”.</p>
+          <div class="symbol-notes">
+            <div><b>01</b><span><strong data-i18n="symbolOneTitle">Gold necklace</strong><small data-i18n="symbolOneText">Nob — gold</small></span></div>
+            <div><b>02</b><span><strong data-i18n="symbolTwoTitle">Heart and windpipe</strong><small data-i18n="symbolTwoText">Nefer — beautiful / good</small></span></div>
+          </div>
+        </div>
+        <div class="detail-image reveal"><div class="image-ring"></div><img src="assets/coin-back.png" alt="Reverse of the Nob Nefer coin showing hieroglyphic signs"></div>
+      </div>
+    </section>
+
+    <section class="map-intro scene">
+      <div class="section-kicker reveal"><span data-i18n="mapKicker">GEOGRAPHY OF DISCOVERY</span></div>
+      <div class="map-intro-copy reveal">
+        <p class="eyebrow" data-i18n="mapEyebrow">FROM EGYPT TO THE WORLD</p>
+        <h2 data-i18n="mapTitle">Follow the traces of <em>Nob Nefer</em></h2>
+        <p class="body-copy" data-i18n="mapText">Explore the recorded locations associated with this coin. Select a point to discover its place name and the number of specimens recorded there.</p>
+      </div>
+    </section>
+
+    <section class="map-scene" id="map-section">
+      <div id="mapView" aria-label="Interactive map showing locations associated with Nob Nefer coins"></div>
+      <div class="map-vignette"></div>
+      <div class="map-heading">
+        <span data-i18n="mapLiveLabel">INTERACTIVE ATLAS</span>
+        <h2 data-i18n="mapLiveTitle">The known locations</h2>
+      </div>
+      <aside class="map-card" id="locationCard">
+        <button class="card-close" id="closeCard" aria-label="Close location details">×</button>
+        <p class="eyebrow" data-i18n="locationCardEyebrow">SELECTED LOCATION</p>
+        <h3 id="locationName" data-i18n="locationPlaceholder">Choose a point on the map</h3>
+        <div class="specimen-count"><strong id="specimenCount">—</strong><span data-i18n="specimensLabel">recorded specimens</span></div>
+        <p class="map-card-hint" data-i18n="locationHint">Select any marker to view its details.</p>
+      </aside>
+      <div class="map-legend"><span class="legend-dot"></span><span data-i18n="legendLocations">Recorded locations</span><span class="legend-line"></span><span data-i18n="legendConnections">Connections from Egypt</span></div>
+      <div class="map-error" id="mapError" hidden></div>
+      <span class="map-credit" data-i18n="mapCredit">Map data: Natural Earth</span>
+    </section>
+
+    <section class="scene chart-scene" id="chart">
+      <div class="section-kicker reveal"><span data-i18n="chartKicker">SPECIMENS BY CONTINENT</span></div>
+      <div class="chart-inner reveal">
+        <p class="eyebrow" data-i18n="chartEyebrow">THE DISTRIBUTION</p>
+        <h2 data-i18n="chartTitle">Where the specimens rest today</h2>
+        <p class="body-copy" data-i18n="chartText">Recorded specimens grouped by the continent of the museum that holds them.</p>
+        <div class="continent-chart" id="continentChart"></div>
+      </div>
+    </section>
+
+    <section class="scene ending">
+      <div class="ending-content reveal">
+        <p class="eyebrow" data-i18n="endingEyebrow">A LEGACY CAST IN GOLD</p>
+        <img src="assets/coin.png" alt="Nob Nefer gold stater">
+        <h2 data-i18n="heroTitle">NOB <span>NEFER</span></h2>
+        <p data-i18n="endingText">An ancient name. A remarkable coin. A story carried across time.</p>
+        <a href="#home" class="back-top" data-i18n="backTop">BACK TO THE BEGINNING ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span data-i18n="footerBrand">NOB NEFER</span><span data-i18n="footerText">A digital archaeological experience</span></footer>
+  <script src="js/translations.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

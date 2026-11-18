@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;500;600&display=swap');
+/* Load AFTER style.css and map.css */
+
+/* ---- larger small text ---- */
+.eyebrow{font-size:13px;letter-spacing:2.6px}
+.hero-subtitle{font-size:15px;letter-spacing:4px}
+.scroll-cue{font-size:13px}
+.section-kicker{font-size:15px}
+.section-kicker span:first-child{color:var(--gold)}
+.facts span,.art-caption,.back-top,.map-heading>span{font-size:12.5px}
+.facts strong{font-size:20px}
+.symbol-notes small{font-size:14px}
+.top-nav a,.language-picker select{font-size:12px}
+footer{font-size:12px}
+.map-credit{font-size:11px}
+.map-controls button{font-size:12px}
+.map-controls .sq{font-size:18px}
+.map-scale,.map-legend{font-size:13px}
+.map-coords{font-size:13px}
+.map-tip{font-size:14px}
+.map-card-place{font-size:15px}
+.specimen-count span,.map-card-hint{font-size:14px}
+.g-country{fill:rgba(231,207,145,.62);font:500 11px var(--sans);text-anchor:middle;paint-order:stroke;stroke:#17130d;stroke-width:2.5px;pointer-events:none}
+@media(max-width:800px){.section-kicker{font-size:13px}.eyebrow{font-size:12px}}
+
+/* ---- hero video ---- */
+.hero-video{display:block;animation:none;filter:none;
+  -webkit-mask-image:radial-gradient(circle at center,#000 58%,transparent 72%);
+  mask-image:radial-gradient(circle at center,#000 58%,transparent 72%)}
+
+/* ---- location photo in the card ---- */
+.map-card-img{display:block;width:calc(100% + 52px);height:180px;margin:-26px -26px 18px;object-fit:contain;background:#0d0b07;border-bottom:1px solid var(--line)}
+.map-card-img[hidden]{display:none}
+.card-close{z-index:2;width:30px;height:30px;background:rgba(16,14,10,.7)}
+
+/* ---- continent chart ---- */
+.chart-scene{min-height:80vh;display:grid;align-content:center;background:linear-gradient(115deg,#14110c,#1c160d)}
+.chart-inner{max-width:860px;width:100%;margin:60px auto 0}
+.chart-inner h2{font:500 clamp(38px,5vw,60px)/1.1 var(--serif);color:#f0e4c8;margin:16px 0 20px}
+.continent-chart{margin-top:44px;display:grid;gap:22px}
+.bar-row{display:grid;grid-template-columns:minmax(120px,190px) 1fr 44px;gap:18px;align-items:center}
+.bar-label{font:500 15px var(--sans);letter-spacing:1px;color:#d8cba9}
+.bar-track{height:16px;border:1px solid var(--line);background:rgba(198,164,92,.05)}
+.bar-track i{display:block;height:100%;width:0;background:linear-gradient(90deg,#8c7444,#e7cf91);box-shadow:0 0 14px rgba(198,164,92,.35);transition:width 1.4s cubic-bezier(.2,.7,.2,1)}
+.bar-row b{font:500 26px var(--display);color:var(--gold2);text-align:end}
+.chart-total{margin:10px 0 0;padding-top:18px;border-top:1px solid var(--line);color:#c6bda9;font:400 15px var(--sans)}
+.chart-total strong{font:500 24px var(--display);color:var(--gold2);margin-inline-end:8px}
+@media(max-width:800px){.bar-row{grid-template-columns:1fr 44px;gap:8px 12px}.bar-label{grid-column:1/-1}}
+
+/* ---- Arabic: real Arabic fonts, no letter-spacing (it breaks letter joining) ---- */
+html[lang="ar"]{--serif:'Amiri',serif;--display:'Cairo',sans-serif;--sans:'Cairo',sans-serif}
+html[lang="ar"] body{font-family:'Cairo',sans-serif}
+html[dir="rtl"] *{letter-spacing:0!important}
+html[lang="ar"] .body-copy,html[lang="ar"] .significance-text{line-height:1.9}
+
+/* ---- hero credits ---- */
+.hero-credits{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 14px;margin:22px auto 0}
+.hero-credits span{font:500 22px var(--serif);color:#e8dcc1;letter-spacing:.04em}
+.hero-credits span+span:before{content:"◆";display:inline-block;margin-inline-end:14px;font-size:9px;color:var(--gold);vertical-align:middle}
+@media(max-width:800px){.hero-credits span{font-size:19px}}
