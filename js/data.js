@@ -33,7 +33,7 @@
 
   // ---------- Translation patch (runs after translations.js) ----------
   const T = window.NOB_TRANSLATIONS;
-  const NAMES = { en: ["Nectanebo II", "Nob Nefer"], fr: ["Nectanébo II", "Nob Nefer"], de: ["Nektanebos II.", "Nob Nefer"], ar: ["نختنبو الثاني", "نوب نفر"] };
+  const NAMES = { en: ["Nectanebo II", "Nub Nefer"], fr: ["Nectanébo II", "Nub Nefer"], de: ["Nektanebos II.", "Nub Nefer"], ar: ["نختنبو الثاني", "نوب نفر"] };
   const Q = { en: ["“", "”"], fr: ["«\u00a0", "\u00a0»"], de: ["„", "“"], ar: ["«", "»"] };
   Object.keys(NAMES).forEach((lang) => NAMES[lang].forEach((n) => {
     const re = new RegExp(n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "gi");
@@ -41,10 +41,16 @@
   }));
 
   const C = {
-    en: { credit1: "Dr. Almoatz-bellah Elshahawi", credit2: "Hekmat Awad El-kilany" },
-    fr: { credit1: "Dr Almoatz-bellah Elshahawi", credit2: "Hekmat Awad El-kilany" },
-    de: { credit1: "Dr. Almoatz-bellah Elshahawi", credit2: "Hekmat Awad El-kilany" },
+    en: { credit1: "Dr. Almoatzbellah Elshahawi", credit2: "Hekmat Awad El-kilany" },
+    fr: { credit1: "Dr Almoatzbellah Elshahawi", credit2: "Hekmat Awad El-kilany" },
+    de: { credit1: "Dr. Almoatzbellah Elshahawi", credit2: "Hekmat Awad El-kilany" },
     ar: { credit1: "د. المعتز بالله الشهاوي", credit2: "حكمت عوض الكيلاني" }
+  };
+  const H = {
+    en: { heroHeading: "REUNITING THE DISPERSED <span>NUB NEFER</span> COINS THROUGH DIGITAL DOCUMENTATION", horseTitle: "Horse emblem", horseText: "Strength · royal power" },
+    fr: { heroHeading: "RÉUNIR LES MONNAIES <span>NUB NEFER</span> DISPERSÉES PAR LA DOCUMENTATION NUMÉRIQUE", horseTitle: "Emblème du cheval", horseText: "Force · pouvoir royal" },
+    de: { heroHeading: "DIE ZERSTREUTEN <span>NUB-NEFER</span>-MÜNZEN DURCH DIGITALE DOKUMENTATION WIEDERVEREINEN", horseTitle: "Pferdemotiv", horseText: "Stärke · königliche Macht" },
+    ar: { heroHeading: "إعادة جمع عملات <span>نوب نفر</span> المتفرقة من خلال التوثيق الرقمي", horseTitle: "رمز الحصان", horseText: "القوة · السلطة الملكية" }
   };
   const X = {
     en: { chartKicker: "SPECIMENS BY CONTINENT", chartEyebrow: "THE DISTRIBUTION", chartTitle: "Where the specimens rest today", chartText: "Recorded specimens grouped by the continent of the museum that holds them.", contAfrica: "Africa", contEurope: "Europe", contNorthAmerica: "North America", contAsia: "Asia", mapCredit: "Map data: Natural Earth" },
@@ -53,8 +59,8 @@
     ar: { chartKicker: "العينات حسب القارة", chartEyebrow: "التوزيع", chartTitle: "أين تُحفظ العينات اليوم", chartText: "العينات المسجلة مجمعة حسب قارة المتحف الذي يحفظها.", contAfrica: "إفريقيا", contEurope: "أوروبا", contNorthAmerica: "أمريكا الشمالية", contAsia: "آسيا", mapCredit: "بيانات الخريطة: Natural Earth" }
   };
   Object.keys(X).forEach((lang) => {
-    const [a, b] = lang === "ar" ? ["نوب", "نفر"] : ["NOB", "NEFER"];
-    Object.assign(T[lang], X[lang], C[lang], { brandHtml: `${a} <b>${b}</b>`, heroTitle: `${a} <span>${b}</span>`, footerBrand: `${a} ${b}` });
+    const [a, b] = lang === "ar" ? ["نوب", "نفر"] : ["NUB", "NEFER"];
+    Object.assign(T[lang], X[lang], C[lang], H[lang], { brandHtml: `${a} <b>${b}</b>`, heroTitle: `${a} <span>${b}</span>`, footerBrand: `${a} ${b}` });
   });
 
   // ---------- Continent chart ----------

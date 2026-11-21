@@ -78,7 +78,7 @@
 
     // ---------- SVG structure ----------
     const svg = d3.select(host).append("svg").attr("class", "geo-svg").attr("role", "img")
-      .attr("aria-label", "Map of museums holding Nob Nefer coins");
+      .attr("aria-label", "Map of museums holding Nub Nefer coins");
     const defs = svg.append("defs");
     defs.append("filter").attr("id", "glow").attr("x", "-20%").attr("y", "-20%").attr("width", "140%").attr("height", "140%").html(
       '<feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>');
