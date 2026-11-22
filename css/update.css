@@ -80,3 +80,15 @@ html[dir="rtl"] .cartouche{padding:12px 30px 12px 44px}
 .horse-img{display:block;height:auto}
 .ornament-left .horse-img{width:1em;opacity:.22}
 .glyph-box .horse-img{width:46px}
+
+/* ---- coin back replaces the scarab ornament ---- */
+.ornament-right .ornament-coin{display:block;width:1.2em;height:auto;opacity:.4;filter:drop-shadow(0 8px 18px rgba(0,0,0,.5))}
+
+/* ---- QR code card ---- */
+.qr-card{position:relative;display:inline-grid;gap:16px;justify-items:center;margin:38px 0 0;padding:26px 26px 20px;border:1px solid var(--line);background:rgba(198,164,92,.04)}
+.qr-card:before,.qr-card:after{content:"";position:absolute;width:30px;height:30px;border-color:var(--gold);opacity:.7}
+.qr-card:before{top:7px;inset-inline-start:7px;border-top:1px solid;border-inline-start:1px solid}
+.qr-card:after{bottom:7px;inset-inline-end:7px;border-bottom:1px solid;border-inline-end:1px solid}
+.qr-frame{padding:10px;background:#fff;box-shadow:0 0 0 1px rgba(198,164,92,.5),0 18px 40px rgba(0,0,0,.5),0 0 40px rgba(198,164,92,.15)}
+.qr-frame img{display:block;width:min(52vw,210px);height:auto}
+.qr-card figcaption{font:500 13px var(--sans);letter-spacing:2.6px;color:var(--gold2)}
