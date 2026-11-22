@@ -47,10 +47,10 @@
     ar: { credit1: "د. المعتز بالله الشهاوي", credit2: "حكمت عوض الكيلاني" }
   };
   const H = {
-    en: { heroHeading: "REUNITING THE DISPERSED <span>NUB NEFER</span> COINS THROUGH DIGITAL DOCUMENTATION", horseTitle: "Horse emblem", horseText: "Strength · royal power", qrCaption: "SCAN TO EXPLORE" },
-    fr: { heroHeading: "RÉUNIR LES MONNAIES <span>NUB NEFER</span> DISPERSÉES PAR LA DOCUMENTATION NUMÉRIQUE", horseTitle: "Emblème du cheval", horseText: "Force · pouvoir royal", qrCaption: "SCANNEZ POUR EXPLORER" },
-    de: { heroHeading: "DIE ZERSTREUTEN <span>NUB-NEFER</span>-MÜNZEN DURCH DIGITALE DOKUMENTATION WIEDERVEREINEN", horseTitle: "Pferdemotiv", horseText: "Stärke · königliche Macht", qrCaption: "ZUM ENTDECKEN SCANNEN" },
-    ar: { heroHeading: "إعادة جمع عملات <span>نوب نفر</span> المتفرقة من خلال التوثيق الرقمي", horseTitle: "رمز الحصان", horseText: "القوة · السلطة الملكية", qrCaption: "امسح الرمز للاستكشاف" }
+    en: { heroHeading: "REUNITING THE DISPERSED <span>NUB NEFER</span> COINS", horseTitle: "Horse emblem", horseText: "Strength · royal power", qrCaption: "SCAN TO EXPLORE" },
+    fr: { heroHeading: "RÉUNIR LES MONNAIES <span>NUB NEFER</span> DISPERSÉES", horseTitle: "Emblème du cheval", horseText: "Force · pouvoir royal", qrCaption: "SCANNEZ POUR EXPLORER" },
+    de: { heroHeading: "DIE ZERSTREUTEN <span>NUB-NEFER</span>-MÜNZEN WIEDERVEREINEN", horseTitle: "Pferdemotiv", horseText: "Stärke · königliche Macht", qrCaption: "ZUM ENTDECKEN SCANNEN" },
+    ar: { heroHeading: "إعادة جمع عملات <span>نوب نفر</span> المتفرقة", horseTitle: "رمز الحصان", horseText: "القوة · السلطة الملكية", qrCaption: "امسح الرمز للاستكشاف" }
   };
   const X = {
     en: { chartKicker: "SPECIMENS BY CONTINENT", chartEyebrow: "THE DISTRIBUTION", chartTitle: "Where the specimens rest today", chartText: "Recorded specimens grouped by the continent of the museum that holds them.", contAfrica: "Africa", contEurope: "Europe", contNorthAmerica: "North America", contAsia: "Asia", mapCredit: "Map data: Natural Earth" },

@@ -81,8 +81,6 @@ html[dir="rtl"] .cartouche{padding:12px 30px 12px 44px}
 .ornament-left .horse-img{width:1em;opacity:.22}
 .glyph-box .horse-img{width:46px}
 
-/* ---- coin back replaces the scarab ornament ---- */
-.ornament-right .ornament-coin{display:block;width:1.2em;height:auto;opacity:.4;filter:drop-shadow(0 8px 18px rgba(0,0,0,.5))}
 
 /* ---- QR code card ---- */
 .qr-card{position:relative;display:inline-grid;gap:16px;justify-items:center;margin:38px 0 0;padding:26px 26px 20px;border:1px solid var(--line);background:rgba(198,164,92,.04)}
@@ -92,3 +90,9 @@ html[dir="rtl"] .cartouche{padding:12px 30px 12px 44px}
 .qr-frame{padding:10px;background:#fff;box-shadow:0 0 0 1px rgba(198,164,92,.5),0 18px 40px rgba(0,0,0,.5),0 0 40px rgba(198,164,92,.15)}
 .qr-frame img{display:block;width:min(52vw,210px);height:auto}
 .qr-card figcaption{font:500 13px var(--sans);letter-spacing:2.6px;color:var(--gold2)}
+
+/* ---- Nub Nefer signs replace the right ornament ---- */
+.ornament-right{color:rgba(198,164,92,.34)}
+.sign-plate{position:relative;display:flex;flex-direction:column;align-items:center;gap:.08em;padding:.22em .3em .36em;border:1.5px solid rgba(198,164,92,.4);border-radius:999px;box-shadow:0 0 40px rgba(198,164,92,.1),inset 0 0 30px rgba(198,164,92,.05)}
+.sign-plate .glyph{font-size:.62em;line-height:1.1;text-shadow:0 0 22px rgba(198,164,92,.35)}
+.sign-plate:after{content:"";position:absolute;bottom:.1em;width:46%;border-bottom:1.5px solid rgba(198,164,92,.4)}
