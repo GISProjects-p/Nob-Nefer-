@@ -71,10 +71,8 @@ html[lang="ar"] .body-copy,html[lang="ar"] .significance-text{line-height:1.9}
 /* ---- sign boxes + cartouche ---- */
 .symbol-notes>div>b.glyph-box{display:grid;place-items:center;flex:none;width:72px;height:72px;font-size:40px;color:var(--gold2);border:1px solid var(--line);background:rgba(198,164,92,.05)}
 .symbol-notes>div>b.glyph-box:hover{background:rgba(198,164,92,.12)}
-.cartouche{position:relative;display:inline-flex;align-items:center;gap:18px;margin-top:30px;padding:12px 44px 12px 30px;border:1.5px solid var(--gold);border-radius:999px;box-shadow:0 0 30px rgba(198,164,92,.1)}
+.cartouche{position:relative;display:inline-flex;align-items:center;gap:18px;margin-top:30px;padding:12px 36px;border:1.5px solid var(--gold);border-radius:999px;box-shadow:0 0 30px rgba(198,164,92,.1)}
 .cartouche .glyph{font-size:48px;line-height:1;color:var(--gold2)}
-.cartouche:after{content:"";position:absolute;inset-inline-end:16px;top:20%;bottom:20%;border-inline-end:1.5px solid var(--gold)}
-html[dir="rtl"] .cartouche{padding:12px 30px 12px 44px}
 
 /* ---- horse sign (gold PNG image) ---- */
 .horse-img{display:block;height:auto}
@@ -95,4 +93,3 @@ html[dir="rtl"] .cartouche{padding:12px 30px 12px 44px}
 .ornament-right{color:rgba(198,164,92,.34)}
 .sign-plate{position:relative;display:flex;flex-direction:column;align-items:center;gap:.08em;padding:.22em .3em .36em;border:1.5px solid rgba(198,164,92,.4);border-radius:999px;box-shadow:0 0 40px rgba(198,164,92,.1),inset 0 0 30px rgba(198,164,92,.05)}
 .sign-plate .glyph{font-size:.62em;line-height:1.1;text-shadow:0 0 22px rgba(198,164,92,.35)}
-.sign-plate:after{content:"";position:absolute;bottom:.1em;width:46%;border-bottom:1.5px solid rgba(198,164,92,.4)}
